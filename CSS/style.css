@@ -24,25 +24,30 @@ body{
     font-family: 'Poppins', sans-serif;
     background: rgb(31, 30, 30);
 }
-.title{
+.title {
+    display: flex;
     color: #f2f0f3;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
-    width: 100%;
-    height: auto;
+    height: 100px;
     background: linear-gradient(to right, hsla(340, 84%, 48%, 0.788), rgb(31, 30, 30));
+    align-items: center;
+    justify-content: center;
 }
 span {
     margin-bottom: 15px;
     color: rgb(255, 20, 98);
 }
-.container{
+.container {
     background: rgba(3, 3, 3, 0.685);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 30px 0px;
+    height: 550px;
+    justify-content: center;
+    gap: 15px;
 }
 .container input{
     padding: 1rem;
@@ -73,7 +78,7 @@ span {
 button{
     position: relative;
     display: inline-block;
-    padding: 10px 30px;
+    padding: 15px 30px;
     background-color: rgb(37, 36, 36);
     color: #fff;
     font-weight: 400;
@@ -81,12 +86,17 @@ button{
     margin-top: 10px;
     text-decoration: none;
     font-size: .5cm;
+    cursor: pointer;
+    border-radius: 15px;
 }
-
+button:hover{
+    background-color: rgb(52, 52, 52);
+}
 footer{
     padding: 40px 0 30px 0;
     margin: auto;
     overflow: hidden;
+    height: 35%;
 }
 
 .titulo {
@@ -133,8 +143,10 @@ footer{
 }
 
 @media screen and (max-width:500px){
-    body{
+    body {
         flex-direction: column;
+        overflow: auto;
+        height: auto;
     }
     .contenedor-footer{
         flex-direction: column;
@@ -158,5 +170,8 @@ footer{
 
     .titulo-final{
         font-size: 20px;
+    }
+    .container input {
+        width: 90%;
     }
 }
