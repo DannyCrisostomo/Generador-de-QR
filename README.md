@@ -2,6 +2,12 @@
 
 Este es un código HTML para un generador de códigos QR, diseñado para crear códigos a partir de texto, URL o números. La página cuenta con una interfaz simple y atractiva, permitiendo al usuario generar fácilmente códigos QR personalizados.
 
+## Vista Previa 🌐
+
+Puedes acceder a una vista previa en vivo del prototipo [aquí](https://dazzling-axolotl-8b7918.netlify.app/).
+
+![php](https://github.com/DannyCrisostomo/Gererador-de-QR/blob/main/Generador%20QR.png)
+
 ## Estructura de Archivos
 
 - **css/style.css:** Hoja de estilo principal para dar formato a la página.
@@ -34,5 +40,4 @@ Este es un código HTML para un generador de códigos QR, diseñado para crear c
 
 ¡Disfruta generando códigos QR personalizados! 🌐📲
 
-## Vista Previa
-![php](https://github.com/DannyCrisostomo/Gererador-de-QR/blob/main/Generador%20QR.png)
+
